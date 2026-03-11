@@ -340,6 +340,18 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1912853713933714397, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1912853713933714397, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1912853713933714397, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[8]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
       propertyPath: m_Controller
       value: 
@@ -357,6 +369,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
       insertIndex: -1
       addedObject: {fileID: 496503021}
+    - targetCorrespondingSourceObject: {fileID: 4143220243365076305, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1023344530}
+    - targetCorrespondingSourceObject: {fileID: 4143220243365076305, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1023344529}
   m_SourcePrefab: {fileID: 100100000, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
 --- !u!1 &496503018 stripped
 GameObject:
@@ -373,7 +391,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 436f01e35ef0542f8b42c9b0d0907ea2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5e3e2e96205d698498c9a65fe4415889, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -472,34 +490,251 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateMethod: 0
-  skinnedMeshRenderer: {fileID: 0}
+  skinnedMeshRenderer: {fileID: 1394139724}
   blendShapes:
   - phoneme: A
+    index: 24
+    maxWeight: 0.28
+  - phoneme: A
+    index: 41
+    maxWeight: 0.35
+  - phoneme: A
+    index: 42
+    maxWeight: 0.15
+  - phoneme: A
+    index: 43
+    maxWeight: 0.12
+  - phoneme: A
+    index: 44
+    maxWeight: 0.12
+  - phoneme: A
+    index: 5
+    maxWeight: 0.1
+  - phoneme: A
+    index: 49
+    maxWeight: 0.08
+  - phoneme: A
+    index: 50
+    maxWeight: 0.08
+  - phoneme: A
     index: 6
-    maxWeight: 1
+    maxWeight: 0.22
+  - phoneme: A
+    index: 7
+    maxWeight: 0.22
+  - phoneme: A
+    index: 2
+    maxWeight: 0.2
+  - phoneme: A
+    index: 3
+    maxWeight: 0.15
+  - phoneme: A
+    index: 4
+    maxWeight: 0.15
+  - phoneme: A
+    index: 20
+    maxWeight: 0.18
+  - phoneme: A
+    index: 21
+    maxWeight: 0.18
+  - phoneme: A
+    index: 18
+    maxWeight: 0.16
+  - phoneme: A
+    index: 19
+    maxWeight: 0.16
+  - phoneme: I
+    index: 24
+    maxWeight: 0.22
+  - phoneme: I
+    index: 43
+    maxWeight: 0.55
+  - phoneme: I
+    index: 44
+    maxWeight: 0.55
+  - phoneme: I
+    index: 45
+    maxWeight: 0.25
+  - phoneme: I
+    index: 46
+    maxWeight: 0.25
+  - phoneme: I
+    index: 42
+    maxWeight: 0.1
+  - phoneme: I
+    index: 47
+    maxWeight: 0.2
+  - phoneme: I
+    index: 48
+    maxWeight: 0.2
+  - phoneme: I
+    index: 33
+    maxWeight: 0.35
+  - phoneme: I
+    index: 34
+    maxWeight: 0.35
+  - phoneme: I
+    index: 6
+    maxWeight: 0.3
   - phoneme: I
     index: 7
-    maxWeight: 1
-  - phoneme: U
+    maxWeight: 0.3
+  - phoneme: I
+    index: 18
+    maxWeight: 0.1
+  - phoneme: I
+    index: 19
+    maxWeight: 0.1
+  - phoneme: I
     index: 8
-    maxWeight: 1
-  - phoneme: E
+    maxWeight: 0.1
+  - phoneme: I
     index: 9
-    maxWeight: 1
+    maxWeight: 0.1
+  - phoneme: I
+    index: 3
+    maxWeight: 0.15
+  - phoneme: I
+    index: 4
+    maxWeight: 0.15
+  - phoneme: U
+    index: 24
+    maxWeight: 0.28
+  - phoneme: U
+    index: 37
+    maxWeight: 0.6
+  - phoneme: U
+    index: 31
+    maxWeight: 0.45
+  - phoneme: U
+    index: 39
+    maxWeight: 0.2
+  - phoneme: U
+    index: 40
+    maxWeight: 0.2
+  - phoneme: U
+    index: 6
+    maxWeight: 0.15
+  - phoneme: U
+    index: 7
+    maxWeight: 0.15
+  - phoneme: U
+    index: 0
+    maxWeight: 0.18
+  - phoneme: U
+    index: 1
+    maxWeight: 0.18
+  - phoneme: U
+    index: 2
+    maxWeight: 0.12
+  - phoneme: U
+    index: 18
+    maxWeight: 0.16
+  - phoneme: U
+    index: 19
+    maxWeight: 0.16
+  - phoneme: U
+    index: 12
+    maxWeight: 0.06
+  - phoneme: U
+    index: 13
+    maxWeight: 0.06
+  - phoneme: E
+    index: 24
+    maxWeight: 0.15
+  - phoneme: E
+    index: 43
+    maxWeight: 0.35
+  - phoneme: E
+    index: 44
+    maxWeight: 0.35
+  - phoneme: E
+    index: 45
+    maxWeight: 0.18
+  - phoneme: E
+    index: 46
+    maxWeight: 0.18
+  - phoneme: E
+    index: 42
+    maxWeight: 0.18
+  - phoneme: E
+    index: 47
+    maxWeight: 0.14
+  - phoneme: E
+    index: 48
+    maxWeight: 0.14
+  - phoneme: E
+    index: 6
+    maxWeight: 0.22
+  - phoneme: E
+    index: 7
+    maxWeight: 0.22
+  - phoneme: E
+    index: 2
+    maxWeight: 0.14
+  - phoneme: E
+    index: 3
+    maxWeight: 0.12
+  - phoneme: E
+    index: 4
+    maxWeight: 0.12
+  - phoneme: E
+    index: 20
+    maxWeight: 0.14
+  - phoneme: E
+    index: 21
+    maxWeight: 0.14
+  - phoneme: E
+    index: 18
+    maxWeight: 0.12
+  - phoneme: E
+    index: 19
+    maxWeight: 0.12
   - phoneme: O
-    index: 10
-    maxWeight: 1
-  - phoneme: N
-    index: -1
-    maxWeight: 1
-  - phoneme: '-'
-    index: -1
-    maxWeight: 1
+    index: 24
+    maxWeight: 0.5
+  - phoneme: O
+    index: 31
+    maxWeight: 0.5
+  - phoneme: O
+    index: 37
+    maxWeight: 0.22
+  - phoneme: O
+    index: 41
+    maxWeight: 0.2
+  - phoneme: O
+    index: 6
+    maxWeight: 0.12
+  - phoneme: O
+    index: 7
+    maxWeight: 0.12
+  - phoneme: O
+    index: 22
+    maxWeight: 0.1
+  - phoneme: O
+    index: 2
+    maxWeight: 0.18
+  - phoneme: O
+    index: 3
+    maxWeight: 0.14
+  - phoneme: O
+    index: 4
+    maxWeight: 0.14
+  - phoneme: O
+    index: 20
+    maxWeight: 0.2
+  - phoneme: O
+    index: 21
+    maxWeight: 0.2
   maxBlendShapeValue: 100
   minVolume: -2.999837
   maxVolume: -1.9998369
   smoothness: 0.06
-  usePhonemeBlend: 0
+  usePhonemeBlend: 1
+  autoBlinkEnabled: 1
+  blinkIntervalMin: 1.5
+  blinkIntervalMax: 6
+  blinkSpeed: 0.1
 --- !u!114 &496503021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,7 +747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87560e04aa74c7a41acb9c87051c3b02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: d0622910165464ec98bf667e4f571218, type: 2}
+  profile: {fileID: 11400000, guid: 04d8d7db6114a384aaabeb1d02dd2013, type: 2}
   onLipSyncUpdate:
     m_PersistentCalls:
       m_Calls:
@@ -528,6 +763,76 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  outputSoundGain: 1
+  audioSourceProxy: {fileID: 0}
+--- !u!1 &1023344526 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4143220243365076305, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
+  m_PrefabInstance: {fileID: 460735845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &1023344528 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -1912853713933714397, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
+  m_PrefabInstance: {fileID: 460735845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1023344529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023344526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2163de355e8fd8e4b83b631e07455323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateMethod: 0
+  skinnedMeshRenderer: {fileID: 1023344528}
+  blendShapes:
+  - phoneme: A
+    index: 2
+    maxWeight: 0.28
+  - phoneme: I
+    index: 2
+    maxWeight: 0.22
+  - phoneme: U
+    index: 2
+    maxWeight: 0.28
+  - phoneme: E
+    index: 2
+    maxWeight: 0.15
+  - phoneme: O
+    index: 2
+    maxWeight: 0.5
+  - phoneme: O
+    index: 0
+    maxWeight: 0.1
+  maxBlendShapeValue: 100
+  minVolume: -2.5
+  maxVolume: -1.5
+  smoothness: 0.05
+  usePhonemeBlend: 1
+  autoBlinkEnabled: 1
+  blinkIntervalMin: 1.5
+  blinkIntervalMax: 6
+  blinkSpeed: 0.1
+--- !u!114 &1023344530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023344526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87560e04aa74c7a41acb9c87051c3b02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 04d8d7db6114a384aaabeb1d02dd2013, type: 2}
+  onLipSyncUpdate:
+    m_PersistentCalls:
+      m_Calls: []
   outputSoundGain: 1
   audioSourceProxy: {fileID: 0}
 --- !u!850595691 &1359427199
@@ -594,6 +899,11 @@ LightingSettings:
   m_PVRTiledBaking: 0
   m_NumRaysToShootPerTexel: -1
   m_RespectSceneVisibilityWhenBakingGI: 0
+--- !u!137 &1394139724 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2480636403939241134, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
+  m_PrefabInstance: {fileID: 460735845}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1398687468
 PrefabInstance:
   m_ObjectHideFlags: 0
