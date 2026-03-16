@@ -369,6 +369,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
       insertIndex: -1
       addedObject: {fileID: 496503021}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 496503022}
     - targetCorrespondingSourceObject: {fileID: 4143220243365076305, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1023344530}
@@ -765,6 +768,70 @@ MonoBehaviour:
         m_CallState: 2
   outputSoundGain: 1
   audioSourceProxy: {fileID: 0}
+--- !u!114 &496503022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496503018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1018f31441f7fdc48a605458f36564d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataset:
+  - triggerPhrases: 'hello
+
+      hi
+
+      hey
+
+      good morning
+
+      good afternoon'
+    response: Hello! Great to see you. How can I help you today?
+  - triggerPhrases: 'what is your name
+
+      who are you
+
+      what should I call
+      you'
+    response: My name is Aria. I am your virtual assistant.
+  - triggerPhrases: 'how are you
+
+      how are you doing
+
+      are you okay'
+    response: I am doing great, thank you for asking!
+  - triggerPhrases: 'what can you do
+
+      what do you know
+
+      how can you help'
+    response: I can answer questions from my dataset. Just ask me anything!
+  - triggerPhrases: 'goodbye
+
+      bye
+
+      see you
+
+      take care
+
+      goodnight'
+    response: Goodbye! It was lovely talking with you. Come back anytime!
+  - triggerPhrases: 'thank you
+
+      thanks
+
+      thank you so much'
+    response: You are very welcome! Is there anything else I can help with?
+  fallbackResponse: I am sorry, I did not understand that. Could you please rephrase?
+  pushToTalkKey: 32
+  greetingLine: Hello! I am Aria. Hold Space and ask me anything.
+  preferredVoice: Aria
+  voiceSpeed: 80
+  matchThreshold: 0.25
 --- !u!1 &1023344526 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4143220243365076305, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
@@ -904,63 +971,6 @@ SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 2480636403939241134, guid: 9b9ed3ce44dd242468485a45cb9b6163, type: 3}
   m_PrefabInstance: {fileID: 460735845}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1398687468
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 100000, guid: b76c71a1e3f6c4fdab657f4fbf5466de, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b76c71a1e3f6c4fdab657f4fbf5466de, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b76c71a1e3f6c4fdab657f4fbf5466de, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.9961195
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b76c71a1e3f6c4fdab657f4fbf5466de, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.05728
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b76c71a1e3f6c4fdab657f4fbf5466de, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.18584895
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b76c71a1e3f6c4fdab657f4fbf5466de, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.25428426
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b76c71a1e3f6c4fdab657f4fbf5466de, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.8567529
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b76c71a1e3f6c4fdab657f4fbf5466de, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.3769421
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b76c71a1e3f6c4fdab657f4fbf5466de, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.24336958
-      objectReference: {fileID: 0}
-    - target: {fileID: 10800000, guid: b76c71a1e3f6c4fdab657f4fbf5466de, type: 3}
-      propertyPath: m_Intensity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 10800000, guid: b76c71a1e3f6c4fdab657f4fbf5466de, type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 4294967295
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b76c71a1e3f6c4fdab657f4fbf5466de, type: 3}
 --- !u!1001 &1406619608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1179,7 +1189,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 180302171}
   - {fileID: 1406619608}
-  - {fileID: 1398687468}
   - {fileID: 460735845}
   - {fileID: 1799658849}
   - {fileID: 1901837696}
