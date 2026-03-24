@@ -28,121 +28,117 @@ namespace uLipSync
         // ── A  (father, hot) ─────────────────────────────────────────────────
         // Big open jaw, eyes widen with effort, brows shoot up
         { "A", new[] {
-            ("jawOpen",              0.28f),
-            ("mouthShrugLower",      0.35f),
-            ("mouthShrugUpper",      0.15f),
-            ("mouthSmileLeft",       0.12f),
-            ("mouthSmileRight",      0.12f),
-            ("cheekPuff",            0.10f),
-            ("noseSneerLeft",        0.08f),
-            ("noseSneerRight",       0.08f),
-            ("cheekSquintLeft",      0.22f),
-            ("cheekSquintRight",     0.22f),
-            ("browInnerUp",          0.20f),
-            ("browOuterUpLeft",      0.15f),
-            ("browOuterUpRight",     0.15f),
-            ("eyeWideLeft",          0.18f),
-            ("eyeWideRight",         0.18f),
-            ("eyeSquintLeft",        0.16f),
-            ("eyeSquintRight",       0.16f),
+            ("jawOpen",              0.20f),
+            ("mouthShrugLower",      0.28f),
+            ("mouthShrugUpper",      0.12f),
+            ("mouthSmileLeft",       0.08f),
+            ("mouthSmileRight",      0.08f),
+            ("cheekPuff",            0.06f),
+            ("noseSneerLeft",        0.05f),
+            ("noseSneerRight",       0.05f),
+            ("cheekSquintLeft",      0.14f),
+            ("cheekSquintRight",     0.14f),
+            ("browInnerUp",          0.14f),
+            ("browOuterUpLeft",      0.10f),
+            ("browOuterUpRight",     0.10f),
+            ("eyeWideLeft",          0.08f),
+            ("eyeWideRight",         0.08f),
+            ("eyeSquintLeft",        0.08f),
+            ("eyeSquintRight",       0.08f),
         }},
 
         // ── I  (see, feet) ───────────────────────────────────────────────────
-        // Big smile lifts cheeks which squint the eyes naturally — like "cheese"
+        // Smile lifts cheeks, squints eyes naturally — like "cheese"
         { "I", new[] {
-            ("jawOpen",              0.22f),
-            ("mouthSmileLeft",       0.55f),
-            ("mouthSmileRight",      0.55f),
-            ("mouthStretchLeft",     0.25f),
-            ("mouthStretchRight",    0.25f),
-            ("mouthShrugUpper",      0.10f),
-            ("mouthUpperUpLeft",     0.20f),
-            ("mouthUpperUpRight",    0.20f),
-            ("mouthLowerDownLeft",   0.35f),
-            ("mouthLowerDownRight",  0.35f),
-            ("cheekSquintLeft",      0.30f),
-            ("cheekSquintRight",     0.30f),
-            ("eyeSquintLeft",        0.10f),
-            ("eyeSquintRight",       0.10f),
-            ("eyeBlinkLeft",         0.10f),
-            ("eyeBlinkRight",        0.10f),
-            ("browOuterUpLeft",      0.15f),
-            ("browOuterUpRight",     0.15f),
+            ("jawOpen",              0.14f),
+            ("mouthSmileLeft",       0.38f),
+            ("mouthSmileRight",      0.38f),
+            ("mouthStretchLeft",     0.18f),
+            ("mouthStretchRight",    0.18f),
+            ("mouthShrugUpper",      0.08f),
+            ("mouthUpperUpLeft",     0.14f),
+            ("mouthUpperUpRight",    0.14f),
+            ("mouthLowerDownLeft",   0.22f),
+            ("mouthLowerDownRight",  0.22f),
+            ("cheekSquintLeft",      0.20f),
+            ("cheekSquintRight",     0.20f),
+            ("eyeSquintLeft",        0.08f),
+            ("eyeSquintRight",       0.08f),
+            ("browOuterUpLeft",      0.10f),
+            ("browOuterUpRight",     0.10f),
         }},
 
         // ── U  (you, boot) ───────────────────────────────────────────────────
         // Pucker + concentration — brows furrow, eyes narrow
         { "U", new[] {
-            ("jawOpen",              0.28f),
-            ("mouthPucker",          0.60f),
-            ("mouthFunnel",          0.45f),
-            ("mouthRollLower",       0.20f),
-            ("mouthRollUpper",       0.20f),
-            ("cheekSquintLeft",      0.15f),
-            ("cheekSquintRight",     0.15f),
-            ("browDownLeft",         0.18f),
-            ("browDownRight",        0.18f),
-            ("browInnerUp",          0.12f),
-            ("eyeSquintLeft",        0.16f),
-            ("eyeSquintRight",       0.16f),
-            ("eyeLookInLeft",        0.06f),
-            ("eyeLookInRight",       0.06f),
+            ("jawOpen",              0.16f),
+            ("mouthPucker",          0.45f),
+            ("mouthFunnel",          0.35f),
+            ("mouthRollLower",       0.16f),
+            ("mouthRollUpper",       0.16f),
+            ("cheekSquintLeft",      0.10f),
+            ("cheekSquintRight",     0.10f),
+            ("browDownLeft",         0.12f),
+            ("browDownRight",        0.12f),
+            ("browInnerUp",          0.08f),
+            ("eyeSquintLeft",        0.10f),
+            ("eyeSquintRight",       0.10f),
+            ("eyeLookInLeft",        0.05f),
+            ("eyeLookInRight",       0.05f),
         }},
 
         // ── E  (bed, said) ───────────────────────────────────────────────────
         // Open smile, eyes bright and open, cheeks lift
         { "E", new[] {
-            ("jawOpen",              0.15f),
-            ("mouthSmileLeft",       0.35f),
-            ("mouthSmileRight",      0.35f),
-            ("mouthStretchLeft",     0.18f),
-            ("mouthStretchRight",    0.18f),
-            ("mouthShrugUpper",      0.18f),
-            ("mouthUpperUpLeft",     0.14f),
-            ("mouthUpperUpRight",    0.14f),
-            ("cheekSquintLeft",      0.22f),
-            ("cheekSquintRight",     0.22f),
-            ("browInnerUp",          0.14f),
-            ("browOuterUpLeft",      0.12f),
-            ("browOuterUpRight",     0.12f),
-            ("eyeWideLeft",          0.14f),
-            ("eyeWideRight",         0.14f),
-            ("eyeSquintLeft",        0.12f),
-            ("eyeSquintRight",       0.12f),
+            ("jawOpen",              0.13f),
+            ("mouthSmileLeft",       0.26f),
+            ("mouthSmileRight",      0.26f),
+            ("mouthStretchLeft",     0.14f),
+            ("mouthStretchRight",    0.14f),
+            ("mouthShrugUpper",      0.14f),
+            ("mouthUpperUpLeft",     0.10f),
+            ("mouthUpperUpRight",    0.10f),
+            ("cheekSquintLeft",      0.14f),
+            ("cheekSquintRight",     0.14f),
+            ("browInnerUp",          0.10f),
+            ("browOuterUpLeft",      0.08f),
+            ("browOuterUpRight",     0.08f),
+            ("eyeWideLeft",          0.06f),
+            ("eyeWideRight",         0.06f),
+            ("eyeSquintLeft",        0.06f),
+            ("eyeSquintRight",       0.06f),
         }},
 
         // ── O  (go, show) ────────────────────────────────────────────────────
-        // Round open mouth, surprise-like eye widening, brows up
+        // Round open mouth, slight eye widening, brows up
         { "O", new[] {
-            ("jawOpen",              0.50f),
-            ("mouthFunnel",          0.50f),
-            ("mouthPucker",          0.22f),
-            ("mouthShrugLower",      0.20f),
-            ("cheekSquintLeft",      0.12f),
-            ("cheekSquintRight",     0.12f),
-            ("jawForward",           0.10f),
-            ("browInnerUp",          0.18f),
-            ("browOuterUpLeft",      0.14f),
-            ("browOuterUpRight",     0.14f),
-            ("eyeWideLeft",          0.20f),
-            ("eyeWideRight",         0.20f),
+            ("jawOpen",              0.28f),
+            ("mouthFunnel",          0.40f),
+            ("mouthPucker",          0.18f),
+            ("mouthShrugLower",      0.14f),
+            ("cheekSquintLeft",      0.08f),
+            ("cheekSquintRight",     0.08f),
+            ("jawForward",           0.08f),
+            ("browInnerUp",          0.12f),
+            ("browOuterUpLeft",      0.10f),
+            ("browOuterUpRight",     0.10f),
+            ("eyeWideLeft",          0.08f),
+            ("eyeWideRight",         0.08f),
         }},
 
         // ── PP  (p, b, m) — bilabial ─────────────────────────────────────────
-        // Full lip press, eyes do a natural soft blink on the hard stop
+        // Full lip press — tight mouth, slight brow concentration
         { "PP", new[] {
             ("mouthClose",           0.50f),
-            ("mouthPressLeft",       0.45f),
-            ("mouthPressRight",      0.45f),
-            ("mouthRollLower",       0.25f),
-            ("mouthRollUpper",       0.25f),
+            ("mouthPressLeft",       0.42f),
+            ("mouthPressRight",      0.42f),
+            ("mouthRollLower",       0.22f),
+            ("mouthRollUpper",       0.22f),
             ("jawOpen",              0.02f),
-            ("browDownLeft",         0.12f),
-            ("browDownRight",        0.12f),
-            ("eyeBlinkLeft",         0.18f),
-            ("eyeBlinkRight",        0.18f),
-            ("eyeSquintLeft",        0.12f),
-            ("eyeSquintRight",       0.12f),
+            ("browDownLeft",         0.10f),
+            ("browDownRight",        0.10f),
+            ("eyeSquintLeft",        0.06f),
+            ("eyeSquintRight",       0.06f),
         }},
 
         // ── FF  (f, v) — labiodental ─────────────────────────────────────────
@@ -167,33 +163,31 @@ namespace uLipSync
         // ── TH  (think, this) — dental ───────────────────────────────────────
         // Tongue tip, concentration, eyes steady and slightly narrowed
         { "TH", new[] {
-            ("jawOpen",              0.28f),
-            ("mouthClose",           0.18f),
-            ("mouthLowerDownLeft",   0.35f),
-            ("mouthLowerDownRight",  0.35f),
-            ("mouthStretchLeft",     0.14f),
-            ("mouthStretchRight",    0.14f),
-            ("browDownLeft",         0.14f),
-            ("browDownRight",        0.14f),
-            ("eyeSquintLeft",        0.12f),
-            ("eyeSquintRight",       0.12f),
-            ("eyeLookOutLeft",       0.05f),
-            ("eyeLookOutRight",      0.05f),
+            ("jawOpen",              0.20f),
+            ("mouthClose",           0.14f),
+            ("mouthLowerDownLeft",   0.28f),
+            ("mouthLowerDownRight",  0.28f),
+            ("mouthStretchLeft",     0.10f),
+            ("mouthStretchRight",    0.10f),
+            ("browDownLeft",         0.10f),
+            ("browDownRight",        0.10f),
+            ("eyeSquintLeft",        0.06f),
+            ("eyeSquintRight",       0.06f),
+            ("eyeLookOutLeft",       0.04f),
+            ("eyeLookOutRight",      0.04f),
         }},
 
         // ── DD  (t, d) — alveolar stop ───────────────────────────────────────
-        // Crisp stop — micro blink on impact
+        // Crisp stop — tongue to palate, slight brow pull
         { "DD", new[] {
-            ("jawOpen",              0.28f),
-            ("mouthClose",           0.50f),
-            ("mouthUpperUpLeft",     0.20f),
-            ("mouthUpperUpRight",    0.20f),
-            ("mouthLowerDownLeft",   0.35f),
-            ("mouthLowerDownRight",  0.35f),
-            ("browDownLeft",         0.10f),
-            ("browDownRight",        0.10f),
-            ("eyeBlinkLeft",         0.12f),
-            ("eyeBlinkRight",        0.12f),
+            ("jawOpen",              0.18f),
+            ("mouthClose",           0.44f),
+            ("mouthUpperUpLeft",     0.16f),
+            ("mouthUpperUpRight",    0.16f),
+            ("mouthLowerDownLeft",   0.26f),
+            ("mouthLowerDownRight",  0.26f),
+            ("browDownLeft",         0.08f),
+            ("browDownRight",        0.08f),
         }},
 
         // ── N  (n, nasal) ────────────────────────────────────────────────────
@@ -253,50 +247,48 @@ namespace uLipSync
         }},
 
         // ── KK  (k, g) — velar ───────────────────────────────────────────────
-        // Jaw drops, back-of-mouth effort shows in slight brow raise
+        // Back-of-mouth effort, slight brow raise
         { "KK", new[] {
-            ("jawOpen",              0.15f),
-            ("mouthClose",           0.18f),
-            ("mouthShrugLower",      0.22f),
-            ("mouthShrugUpper",      0.10f),
-            ("browDownLeft",         0.12f),
-            ("browDownRight",        0.12f),
-            ("browInnerUp",          0.10f),
-            ("eyeSquintLeft",        0.10f),
-            ("eyeSquintRight",       0.10f),
-            ("eyeBlinkLeft",         0.10f),
-            ("eyeBlinkRight",        0.10f),
+            ("jawOpen",              0.14f),
+            ("mouthClose",           0.16f),
+            ("mouthShrugLower",      0.18f),
+            ("mouthShrugUpper",      0.08f),
+            ("browDownLeft",         0.10f),
+            ("browDownRight",        0.10f),
+            ("browInnerUp",          0.08f),
+            ("eyeSquintLeft",        0.06f),
+            ("eyeSquintRight",       0.06f),
         }},
 
         // ── RR  (r) — rhotic ─────────────────────────────────────────────────
         // Lip funnel + rolls, concentration brow, eyes slightly narrow
         { "RR", new[] {
-            ("jawOpen",              0.28f),
-            ("mouthFunnel",          0.32f),
-            ("mouthRollLower",       0.40f),
-            ("mouthRollUpper",       0.30f),
-            ("mouthPucker",          0.18f),
-            ("cheekSquintLeft",      0.12f),
-            ("cheekSquintRight",     0.12f),
-            ("browDownLeft",         0.12f),
-            ("browDownRight",        0.12f),
-            ("eyeSquintLeft",        0.12f),
-            ("eyeSquintRight",       0.12f),
+            ("jawOpen",              0.20f),
+            ("mouthFunnel",          0.26f),
+            ("mouthRollLower",       0.32f),
+            ("mouthRollUpper",       0.24f),
+            ("mouthPucker",          0.14f),
+            ("cheekSquintLeft",      0.08f),
+            ("cheekSquintRight",     0.08f),
+            ("browDownLeft",         0.10f),
+            ("browDownRight",        0.10f),
+            ("eyeSquintLeft",        0.06f),
+            ("eyeSquintRight",       0.06f),
         }},
 
         // ── L  (l) — lateral ─────────────────────────────────────────────────
         // Tongue tip up, upper lip raises, eyes neutral
         { "L", new[] {
-            ("jawOpen",              0.28f),
-            ("mouthUpperUpLeft",     0.25f),
-            ("mouthUpperUpRight",    0.25f),
-            ("mouthSmileLeft",       0.16f),
-            ("mouthSmileRight",      0.16f),
-            ("mouthClose",           0.10f),
-            ("eyeSquintLeft",        0.08f),
-            ("eyeSquintRight",       0.08f),
-            ("browOuterUpLeft",      0.08f),
-            ("browOuterUpRight",     0.08f),
+            ("jawOpen",              0.18f),
+            ("mouthUpperUpLeft",     0.20f),
+            ("mouthUpperUpRight",    0.20f),
+            ("mouthSmileLeft",       0.12f),
+            ("mouthSmileRight",      0.12f),
+            ("mouthClose",           0.08f),
+            ("eyeSquintLeft",        0.04f),
+            ("eyeSquintRight",       0.04f),
+            ("browOuterUpLeft",      0.06f),
+            ("browOuterUpRight",     0.06f),
         }},
 
         // ── SIL  (silence) ───────────────────────────────────────────────────
@@ -332,9 +324,9 @@ namespace uLipSync
         public SkinnedMeshRenderer skinnedMeshRenderer;
         public List<BlendShapeInfo> blendShapes = new List<BlendShapeInfo>();
         public float maxBlendShapeValue = 100f;
-        public float minVolume = -2.5f;
+        public float minVolume = -2.3f;
         public float maxVolume = -1.5f;
-        [Range(0f, 0.3f)] public float smoothness = 0.05f;
+        [Range(0f, 0.3f)] public float smoothness = 0.07f;
         public bool usePhonemeBlend = true;
 
         LipSyncInfo _info = new LipSyncInfo();
@@ -630,19 +622,33 @@ namespace uLipSync
         {
             if (!skinnedMeshRenderer) return;
 
+            // Accumulate the MAXIMUM contribution per blend shape index.
+            // Critical: multiple phoneme entries share the same blend shape (e.g.
+            // jawOpen appears in A, I, U, O, RR, L, TH, DD...). Summing them causes
+            // massive over-exaggeration. Taking the MAX means only the dominant
+            // phoneme drives each shape — exactly how a real face works.
+            var accum = new Dictionary<int, float>();
             foreach (var bs in blendShapes)
             {
                 if (bs.index < 0) continue;
-                skinnedMeshRenderer.SetBlendShapeWeight(bs.index, 0f);
+
+                // Gentle power curve: slightly boosts mid-range expression
+                // while softening the very top end to avoid cartoon extremes.
+                float w = Mathf.Pow(Mathf.Clamp01(bs.weight), 0.85f);
+                float val = w * bs.maxWeight * volume * maxBlendShapeValue;
+
+                if (accum.TryGetValue(bs.index, out float existing))
+                    accum[bs.index] = Mathf.Max(existing, val);
+                else
+                    accum[bs.index] = val;
             }
 
-            foreach (var bs in blendShapes)
-            {
-                if (bs.index < 0) continue;
-                float current = skinnedMeshRenderer.GetBlendShapeWeight(bs.index);
-                float add = bs.weight * bs.maxWeight * volume * maxBlendShapeValue;
-                skinnedMeshRenderer.SetBlendShapeWeight(bs.index, current + add);
-            }
+            // Zero every involved index first, then apply the single accumulated value.
+            foreach (var kv in accum)
+                skinnedMeshRenderer.SetBlendShapeWeight(kv.Key, 0f);
+            foreach (var kv in accum)
+                skinnedMeshRenderer.SetBlendShapeWeight(
+                    kv.Key, Mathf.Clamp(kv.Value, 0f, maxBlendShapeValue));
         }
 
         // ── Helpers ───────────────────────────────────────────────────────────────
@@ -692,9 +698,12 @@ namespace uLipSync
             foreach (var bs in blendShapes)
             {
                 if (bs.index < 0) continue;
-                float add = bs.weight * bs.maxWeight * volume * maxBlendShapeValue;
-                if (accum.ContainsKey(bs.index)) accum[bs.index] += add;
-                else accum[bs.index] = add;
+                float w = Mathf.Pow(Mathf.Clamp01(bs.weight), 0.85f);
+                float add = w * bs.maxWeight * volume * maxBlendShapeValue;
+                if (accum.ContainsKey(bs.index))
+                    accum[bs.index] = Mathf.Max(accum[bs.index], add);
+                else
+                    accum[bs.index] = add;
             }
 
             var weights = new List<float>();

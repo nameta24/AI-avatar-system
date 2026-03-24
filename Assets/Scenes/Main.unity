@@ -394,11 +394,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5e3e2e96205d698498c9a65fe4415889, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -497,238 +497,232 @@ MonoBehaviour:
   blendShapes:
   - phoneme: A
     index: 24
-    maxWeight: 0.28
+    maxWeight: 0.2
   - phoneme: A
     index: 41
-    maxWeight: 0.35
+    maxWeight: 0.28
   - phoneme: A
     index: 42
-    maxWeight: 0.15
+    maxWeight: 0.12
   - phoneme: A
     index: 43
-    maxWeight: 0.12
+    maxWeight: 0.08
   - phoneme: A
     index: 44
-    maxWeight: 0.12
+    maxWeight: 0.08
   - phoneme: A
     index: 5
-    maxWeight: 0.1
+    maxWeight: 0.06
   - phoneme: A
     index: 49
-    maxWeight: 0.08
+    maxWeight: 0.05
   - phoneme: A
     index: 50
+    maxWeight: 0.05
+  - phoneme: A
+    index: 6
+    maxWeight: 0.14
+  - phoneme: A
+    index: 7
+    maxWeight: 0.14
+  - phoneme: A
+    index: 2
+    maxWeight: 0.14
+  - phoneme: A
+    index: 3
+    maxWeight: 0.1
+  - phoneme: A
+    index: 4
+    maxWeight: 0.1
+  - phoneme: A
+    index: 20
     maxWeight: 0.08
   - phoneme: A
-    index: 6
-    maxWeight: 0.22
-  - phoneme: A
-    index: 7
-    maxWeight: 0.22
-  - phoneme: A
-    index: 2
-    maxWeight: 0.2
-  - phoneme: A
-    index: 3
-    maxWeight: 0.15
-  - phoneme: A
-    index: 4
-    maxWeight: 0.15
-  - phoneme: A
-    index: 20
-    maxWeight: 0.18
-  - phoneme: A
     index: 21
-    maxWeight: 0.18
+    maxWeight: 0.08
   - phoneme: A
     index: 18
-    maxWeight: 0.16
+    maxWeight: 0.08
   - phoneme: A
     index: 19
-    maxWeight: 0.16
+    maxWeight: 0.08
   - phoneme: I
     index: 24
-    maxWeight: 0.22
+    maxWeight: 0.14
   - phoneme: I
     index: 43
-    maxWeight: 0.55
+    maxWeight: 0.38
   - phoneme: I
     index: 44
-    maxWeight: 0.55
+    maxWeight: 0.38
   - phoneme: I
     index: 45
-    maxWeight: 0.25
+    maxWeight: 0.18
   - phoneme: I
     index: 46
-    maxWeight: 0.25
+    maxWeight: 0.18
   - phoneme: I
     index: 42
-    maxWeight: 0.1
+    maxWeight: 0.08
   - phoneme: I
     index: 47
-    maxWeight: 0.2
+    maxWeight: 0.14
   - phoneme: I
     index: 48
-    maxWeight: 0.2
+    maxWeight: 0.14
   - phoneme: I
     index: 33
-    maxWeight: 0.35
+    maxWeight: 0.22
   - phoneme: I
     index: 34
-    maxWeight: 0.35
+    maxWeight: 0.22
   - phoneme: I
     index: 6
-    maxWeight: 0.3
+    maxWeight: 0.2
   - phoneme: I
     index: 7
-    maxWeight: 0.3
+    maxWeight: 0.2
   - phoneme: I
     index: 18
-    maxWeight: 0.1
+    maxWeight: 0.08
   - phoneme: I
     index: 19
-    maxWeight: 0.1
-  - phoneme: I
-    index: 8
-    maxWeight: 0.1
-  - phoneme: I
-    index: 9
-    maxWeight: 0.1
+    maxWeight: 0.08
   - phoneme: I
     index: 3
-    maxWeight: 0.15
+    maxWeight: 0.1
   - phoneme: I
     index: 4
-    maxWeight: 0.15
+    maxWeight: 0.1
   - phoneme: U
     index: 24
-    maxWeight: 0.28
+    maxWeight: 0.16
   - phoneme: U
     index: 37
-    maxWeight: 0.6
-  - phoneme: U
-    index: 31
     maxWeight: 0.45
   - phoneme: U
+    index: 31
+    maxWeight: 0.35
+  - phoneme: U
     index: 39
-    maxWeight: 0.2
+    maxWeight: 0.16
   - phoneme: U
     index: 40
-    maxWeight: 0.2
+    maxWeight: 0.16
   - phoneme: U
     index: 6
-    maxWeight: 0.15
+    maxWeight: 0.1
   - phoneme: U
     index: 7
-    maxWeight: 0.15
+    maxWeight: 0.1
   - phoneme: U
     index: 0
-    maxWeight: 0.18
+    maxWeight: 0.12
   - phoneme: U
     index: 1
-    maxWeight: 0.18
-  - phoneme: U
-    index: 2
     maxWeight: 0.12
   - phoneme: U
+    index: 2
+    maxWeight: 0.08
+  - phoneme: U
     index: 18
-    maxWeight: 0.16
+    maxWeight: 0.1
   - phoneme: U
     index: 19
-    maxWeight: 0.16
+    maxWeight: 0.1
   - phoneme: U
     index: 12
-    maxWeight: 0.06
+    maxWeight: 0.05
   - phoneme: U
     index: 13
-    maxWeight: 0.06
+    maxWeight: 0.05
   - phoneme: E
     index: 24
-    maxWeight: 0.15
+    maxWeight: 0.13
   - phoneme: E
     index: 43
-    maxWeight: 0.35
+    maxWeight: 0.26
   - phoneme: E
     index: 44
-    maxWeight: 0.35
+    maxWeight: 0.26
   - phoneme: E
     index: 45
-    maxWeight: 0.18
+    maxWeight: 0.14
   - phoneme: E
     index: 46
-    maxWeight: 0.18
+    maxWeight: 0.14
   - phoneme: E
     index: 42
-    maxWeight: 0.18
+    maxWeight: 0.14
   - phoneme: E
     index: 47
-    maxWeight: 0.14
+    maxWeight: 0.1
   - phoneme: E
     index: 48
-    maxWeight: 0.14
+    maxWeight: 0.1
   - phoneme: E
     index: 6
-    maxWeight: 0.22
+    maxWeight: 0.14
   - phoneme: E
     index: 7
-    maxWeight: 0.22
+    maxWeight: 0.14
   - phoneme: E
     index: 2
-    maxWeight: 0.14
+    maxWeight: 0.1
   - phoneme: E
     index: 3
-    maxWeight: 0.12
+    maxWeight: 0.08
   - phoneme: E
     index: 4
-    maxWeight: 0.12
+    maxWeight: 0.08
   - phoneme: E
     index: 20
-    maxWeight: 0.14
+    maxWeight: 0.06
   - phoneme: E
     index: 21
-    maxWeight: 0.14
+    maxWeight: 0.06
   - phoneme: E
     index: 18
-    maxWeight: 0.12
+    maxWeight: 0.06
   - phoneme: E
     index: 19
-    maxWeight: 0.12
+    maxWeight: 0.06
   - phoneme: O
     index: 24
-    maxWeight: 0.5
+    maxWeight: 0.28
   - phoneme: O
     index: 31
-    maxWeight: 0.5
+    maxWeight: 0.4
   - phoneme: O
     index: 37
-    maxWeight: 0.22
-  - phoneme: O
-    index: 41
-    maxWeight: 0.2
-  - phoneme: O
-    index: 6
-    maxWeight: 0.12
-  - phoneme: O
-    index: 7
-    maxWeight: 0.12
-  - phoneme: O
-    index: 22
-    maxWeight: 0.1
-  - phoneme: O
-    index: 2
     maxWeight: 0.18
   - phoneme: O
-    index: 3
+    index: 41
     maxWeight: 0.14
+  - phoneme: O
+    index: 6
+    maxWeight: 0.08
+  - phoneme: O
+    index: 7
+    maxWeight: 0.08
+  - phoneme: O
+    index: 22
+    maxWeight: 0.08
+  - phoneme: O
+    index: 2
+    maxWeight: 0.12
+  - phoneme: O
+    index: 3
+    maxWeight: 0.1
   - phoneme: O
     index: 4
-    maxWeight: 0.14
+    maxWeight: 0.1
   - phoneme: O
     index: 20
-    maxWeight: 0.2
+    maxWeight: 0.08
   - phoneme: O
     index: 21
-    maxWeight: 0.2
+    maxWeight: 0.08
   maxBlendShapeValue: 100
   minVolume: -2.999837
   maxVolume: -1.9998369
@@ -829,7 +823,7 @@ MonoBehaviour:
   fallbackResponse: I am sorry, I did not understand that. Could you please rephrase?
   pushToTalkKey: 32
   greetingLine: Hello! I am Aria. Hold Space and ask me anything.
-  preferredVoice: Aria
+  preferredVoice: Microsoft Zira Desktop
   voiceSpeed: 80
   matchThreshold: 0.25
 --- !u!1 &1023344526 stripped
