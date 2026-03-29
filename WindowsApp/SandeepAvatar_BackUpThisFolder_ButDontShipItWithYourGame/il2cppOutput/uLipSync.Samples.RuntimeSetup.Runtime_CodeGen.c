@@ -1,0 +1,77 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void uLipSyncBlendShapeRuntimeSetupExample_Start_mDB857AC635B5E296AA26A604F92B32EF4EB585D3 (void);
+extern void uLipSyncBlendShapeRuntimeSetupExample_SetupBlendShpae_mC89B3944761A9D091C8F5BB91973F33A83E506CB (void);
+extern void uLipSyncBlendShapeRuntimeSetupExample_SetupLipSync_mA20EA4DA4B21A33C136B85026EAA7AB1F7EA805B (void);
+extern void uLipSyncBlendShapeRuntimeSetupExample__ctor_m9CBC73CEC53CE775EB8CFB1113F97635B11D5B0C (void);
+extern void PhonemeBlendShapeInfo__ctor_mD409EAAA530D15FAA344288BBD6DA011350B4B12 (void);
+extern void uLipSyncBlendShapeVRMRuntimeSetupExample_Start_m0B9D86EA1E9361B7466DD769C7D32DCEEF57474C (void);
+extern void uLipSyncBlendShapeVRMRuntimeSetupExample__ctor_m253E43F6D0ED0364E0E511AE91F213845D182C9F (void);
+extern void PhonemeBlendShapeInfo__ctor_mE318846580A87FD86ABAD8788B09CFB45687C107 (void);
+extern void uLipSyncExpressionVRMRuntimeSetupExample_Start_mCB343329120E7CFBC44938B74031BF1F7614E8D8 (void);
+extern void uLipSyncExpressionVRMRuntimeSetupExample__ctor_m437DC24632EDBB6FA00F94D022ED40F92C4FB0F1 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m274845F7A9CCD18A7C1D5C2C5ACB0F5CF033B83C (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m49AD3060F03066B1CDFDC7B6611DC27A69E0AED4 (void);
+static Il2CppMethodPointer s_methodPointers[12] = 
+{
+	uLipSyncBlendShapeRuntimeSetupExample_Start_mDB857AC635B5E296AA26A604F92B32EF4EB585D3,
+	uLipSyncBlendShapeRuntimeSetupExample_SetupBlendShpae_mC89B3944761A9D091C8F5BB91973F33A83E506CB,
+	uLipSyncBlendShapeRuntimeSetupExample_SetupLipSync_mA20EA4DA4B21A33C136B85026EAA7AB1F7EA805B,
+	uLipSyncBlendShapeRuntimeSetupExample__ctor_m9CBC73CEC53CE775EB8CFB1113F97635B11D5B0C,
+	PhonemeBlendShapeInfo__ctor_mD409EAAA530D15FAA344288BBD6DA011350B4B12,
+	uLipSyncBlendShapeVRMRuntimeSetupExample_Start_m0B9D86EA1E9361B7466DD769C7D32DCEEF57474C,
+	uLipSyncBlendShapeVRMRuntimeSetupExample__ctor_m253E43F6D0ED0364E0E511AE91F213845D182C9F,
+	PhonemeBlendShapeInfo__ctor_mE318846580A87FD86ABAD8788B09CFB45687C107,
+	uLipSyncExpressionVRMRuntimeSetupExample_Start_mCB343329120E7CFBC44938B74031BF1F7614E8D8,
+	uLipSyncExpressionVRMRuntimeSetupExample__ctor_m437DC24632EDBB6FA00F94D022ED40F92C4FB0F1,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m274845F7A9CCD18A7C1D5C2C5ACB0F5CF033B83C,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m49AD3060F03066B1CDFDC7B6611DC27A69E0AED4,
+};
+static const int32_t s_InvokerIndices[12] = 
+{
+	8209,
+	8209,
+	8209,
+	8209,
+	8209,
+	8209,
+	8209,
+	8209,
+	8209,
+	8209,
+	14012,
+	8209,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_uLipSync_Samples_RuntimeSetup_Runtime_CodeGenModule;
+const Il2CppCodeGenModule g_uLipSync_Samples_RuntimeSetup_Runtime_CodeGenModule = 
+{
+	"uLipSync.Samples.RuntimeSetup.Runtime.dll",
+	12,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

@@ -1,0 +1,92 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mDB17B589961C5E0B0FF889005782646178F8EAE9 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mEC7F095F5178D47DF5A2617FAA640E69F3827610 (void);
+extern void AudioListPlayer_Start_mD8FEC63006A3DE618D5B215A71A71609CA2E4B34 (void);
+extern void AudioListPlayer_Update_m42676B6E0935278D8A8BAD320D62700454DA9BE8 (void);
+extern void AudioListPlayer_UpdateTogglePlay_mC939C22333789FC553F740AC715CF85336F85C66 (void);
+extern void AudioListPlayer_UpdateAudioClipChange_m398ABB6D6BA0D0EDAE4544A3A93F40AFEFD0EB81 (void);
+extern void AudioListPlayer__ctor_mC20F4C6BAF36BFF6A449CFAF136949E9823C0C05 (void);
+extern void RuntimeAudioClipPlayer_Play_mE19EC919549BEFEB0427C5C100B943960A9C1D25 (void);
+extern void RuntimeAudioClipPlayer_DownloadAndPlay_mB3A329F115AF4679133F2CD7B41D247E2633257B (void);
+extern void RuntimeAudioClipPlayer__ctor_m72054B07177C68049A10910E6D2B005665378FBC (void);
+extern void U3CDownloadAndPlayU3Ed__2__ctor_mCF9112EA11E58FBFFEBFE0E14B4EAE0E7281EFCE (void);
+extern void U3CDownloadAndPlayU3Ed__2_System_IDisposable_Dispose_m0F2BC8B5795B8C379779B3737502353730422BAF (void);
+extern void U3CDownloadAndPlayU3Ed__2_MoveNext_m959CBF0D7B834155EE54049BC17C7CAE6E6DF160 (void);
+extern void U3CDownloadAndPlayU3Ed__2_U3CU3Em__Finally1_mE0D9F7BC3F79FA7065143E3495D0EA5591D0107B (void);
+extern void U3CDownloadAndPlayU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2CC2D20D15F9DBFE79140211194BDFCACC3A7CE5 (void);
+extern void U3CDownloadAndPlayU3Ed__2_System_Collections_IEnumerator_Reset_m10BC5B23BBE224C32F1F3F514769DEE9FC709758 (void);
+extern void U3CDownloadAndPlayU3Ed__2_System_Collections_IEnumerator_get_Current_m6AC9B8755DBCE5C98953DACD5E3989CA9F879F76 (void);
+static Il2CppMethodPointer s_methodPointers[17] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mDB17B589961C5E0B0FF889005782646178F8EAE9,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mEC7F095F5178D47DF5A2617FAA640E69F3827610,
+	AudioListPlayer_Start_mD8FEC63006A3DE618D5B215A71A71609CA2E4B34,
+	AudioListPlayer_Update_m42676B6E0935278D8A8BAD320D62700454DA9BE8,
+	AudioListPlayer_UpdateTogglePlay_mC939C22333789FC553F740AC715CF85336F85C66,
+	AudioListPlayer_UpdateAudioClipChange_m398ABB6D6BA0D0EDAE4544A3A93F40AFEFD0EB81,
+	AudioListPlayer__ctor_mC20F4C6BAF36BFF6A449CFAF136949E9823C0C05,
+	RuntimeAudioClipPlayer_Play_mE19EC919549BEFEB0427C5C100B943960A9C1D25,
+	RuntimeAudioClipPlayer_DownloadAndPlay_mB3A329F115AF4679133F2CD7B41D247E2633257B,
+	RuntimeAudioClipPlayer__ctor_m72054B07177C68049A10910E6D2B005665378FBC,
+	U3CDownloadAndPlayU3Ed__2__ctor_mCF9112EA11E58FBFFEBFE0E14B4EAE0E7281EFCE,
+	U3CDownloadAndPlayU3Ed__2_System_IDisposable_Dispose_m0F2BC8B5795B8C379779B3737502353730422BAF,
+	U3CDownloadAndPlayU3Ed__2_MoveNext_m959CBF0D7B834155EE54049BC17C7CAE6E6DF160,
+	U3CDownloadAndPlayU3Ed__2_U3CU3Em__Finally1_mE0D9F7BC3F79FA7065143E3495D0EA5591D0107B,
+	U3CDownloadAndPlayU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2CC2D20D15F9DBFE79140211194BDFCACC3A7CE5,
+	U3CDownloadAndPlayU3Ed__2_System_Collections_IEnumerator_Reset_m10BC5B23BBE224C32F1F3F514769DEE9FC709758,
+	U3CDownloadAndPlayU3Ed__2_System_Collections_IEnumerator_get_Current_m6AC9B8755DBCE5C98953DACD5E3989CA9F879F76,
+};
+static const int32_t s_InvokerIndices[17] = 
+{
+	14014,
+	8209,
+	8209,
+	8209,
+	8209,
+	8209,
+	8209,
+	8209,
+	8064,
+	8209,
+	6529,
+	8209,
+	7943,
+	8209,
+	8064,
+	8209,
+	8064,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_uLipSync_Samples_WebGL_Runtime_CodeGenModule;
+const Il2CppCodeGenModule g_uLipSync_Samples_WebGL_Runtime_CodeGenModule = 
+{
+	"uLipSync.Samples.WebGL.Runtime.dll",
+	17,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

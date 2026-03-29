@@ -1,0 +1,10 @@
+{ 
+  "avatar_glb_url":  "https://cdn.nameta.org/avatars/your_avatar.glb", 
+  "persona":         "customer_support", 
+  "voice_id":        "en_male_1", 
+  "language":        "en", 
+  "window_width":    1280, 
+  "window_height":   720, 
+  "api_base_url":    "https://api.nameta.org", 
+  "api_key":         "your_api_key_here" 
+} 
